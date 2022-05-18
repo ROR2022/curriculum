@@ -13,6 +13,7 @@ const Section = () => {
         <div className='cartasCont'>
         <h3 className='cartas'>CARTAS DE RECOMENDACION:</h3>
         <a className="carta1" href="carta1.pdf">CARTA1</a>
+        <a className="carta2" href="carta2.pdf">CARTA2</a>
         </div>
         <div className='experCont'>
         <h3 className='exper'>EXPERIENCIA PROFESIONAL:</h3>
