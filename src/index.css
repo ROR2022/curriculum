@@ -244,13 +244,13 @@ rect {
 @media screen and (max-width:550px) {
 
   .educ{
-    top: 150vw;
+    top: 165vw;
     display: flex;
     flex-direction: column;
   }
   
   .cartasCont{
-    top: 130vw;
+    top: 145vw;
   }
   
 }
