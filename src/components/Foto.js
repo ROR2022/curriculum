@@ -10,7 +10,7 @@ const Foto = () => {
         <div className='mainContainer'>
            <svg><rect></rect></svg>
              <div className='fotoCont'>
-                 <img className='styleFoto' src="miFoto1.png" alt="" />
+                 <img className='styleFoto' src="miFoto2.png" alt="" />
              </div>
         </div>
     </div>
