@@ -9,8 +9,8 @@ function Nombre() {
         <h2 className='titulo3Nombre'>ESCOM IPN</h2>
         
         </div>
-        <img className='logoIPN' src="logoIPN.png" alt="" />
-        <img className='escom' src="escom.png" alt="" />
+        <img className='logoIPN' onClick={()=>window.open("https://www.ipn.mx/")} src="logoIPN.png" alt="" />
+        <img className='escom' onClick={()=>window.open("https://www.escom.ipn.mx/")}src="escom.png" alt="" />
         
     </div>
   )
