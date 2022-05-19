@@ -1,256 +1,251 @@
 *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.email{
-  position: absolute;
-  top: 12vw;
-  left: 1vw;
-  width: 2vw;
-  margin: .5vw;
-}
-
-.correo{
-  position: absolute;
-  font-size: 1.4vw;
-  top: 13vw;
-  left: 4vw;
-}
-
-.tel{
-  position: absolute;
-  top: 8vw;
-  left: 1vw;
-  width: 2vw;
-  margin: .5vw;
-
-}
-
-.wats{
-  position: absolute;
-  top: 8.2vw;
-  left: 15.5vw;
-  width: 2.2vw;
-  margin: .5vw;
-
-}
-.telefono{
-  position: absolute;
-  font-size: 1.8vw;
-  top: 9vw;
-  left: 5vw;
-}
-
-.ubicon{
-  position: absolute;
-  top: 4vw;
-  left: 1vw;
-  width: 2vw;
-  margin: .5vw;
-}
-.direc{
-  position: absolute;
-  font-size: 1.3vw;
-  top: 5vw;
-  left: 3.5vw;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-.sidebar{
-  position: relative;
-  color: #160250;
-  width: 19vw;
-  min-height: 120vh;
-  text-align: center;
-  padding-top: 2vw;
-  background-color: #B2A3DE;
-}
-
-.contact, .habil{
-  font-size: 2vw;
-  color: #160250;
-}
-
-.habil{
-  border-top: 1px solid #160250;
-  width: 100%;
-  padding-top: 1vw;
-  position: absolute;
-  top: 18vw;
-  left: 0vw;
-}
-.habilist {
-  padding-left: 2vw;
-  list-style-type: disc;
-  position: absolute;
-  font-size: 2vw;
-  top: 22vw;
-}
-li{
-  margin: 1vw;
-  text-align: left;
-}
-
-.tituloNombre{
-  font-size: 4vw;
-  color: #160250;
-}
-.titulo2Nombre{
-  font-size: 2vw;
-  color: #160250;
-}
-.titulo3Nombre{
-  font-size: 3vw;
-  color: #160250;
-}
-.educ{
-  position: absolute;
-  border-top: 1px solid black;
-  width: 100%;
-  top: 50vw;
-  left: 20vw;
-}
-.cartasCont{
-  position: absolute;
-  border-top: 1px solid black;
-  width: 100%;
-  top: 40vw;
-  left: 20vw;
-}
-
-.experCont{
-  position: absolute;
-  margin: 1vw;
-  top: 20vw;
-  left: 20vw;
-}
-
-
-.titulo, .acta, .curp, .cedula, .carta2{
-  margin: 0vw;
-  padding: .5vw;
-}
-
-
-.anexos, .cartas, .exper, .mtm, .uba,.fam{
-  margin: 1vw 0;
-}
-
-.logoIPN{
-  position: absolute;
-  top: 0vw;
-  left: 68vw;
-  width: 12vw;
-  height: 100%;
-}
-.escom{
-  position: absolute;
-  top: 0vw;
-  left: 56vw;
-  width: 12vw;
-  height: 100%;
-}
-
-.nombre {
-  position: absolute;
-  background-color: #B2A3DE;
-  width: 100%;
-  height: 19vw;
-  top: 0vw;
-  left: 19vw;
-  text-align: left;
-}
-.datosNombre {
-  position: absolute;
-  top: 4vw;
-  left: 2vw;
-  text-align: center;
-}
-
-.mainContainer{
-  position: relative;
-  background-color: #3d426b;
-  margin: 0vw;
-  padding: 0vw;
-  width: 19vw;
-  height: 19vw;
-  top: 0;
-  left: 0;
-}
-
-.fotoCont{
-  position: absolute;
-  background-color: #3d426b;
-  margin: 1vw;
-  padding: .5vw;
-  border: 2px solid #B2A3DE;
-  top: 2vh;
-  left: 2vw;
-}
-
-.styleFoto {
-  z-index: 1000;
-  border-radius: 2vw;
-  margin: .5vw;
-  padding: .2vw;
-  width: 10vw;
-}
-
-svg,rect{
-  top: .5vw;
-  left: .5vw;
-  margin: .5vw;
-  padding: .5vw;
-  padding-bottom: 1vw;
-  padding-right: 1vw;
-  width: 100%;
-  height: 100%;
-  fill: transparent;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   
-}
-
-
-rect {
-  stroke: #B2A3DE;
-  stroke-width: 6;
-  stroke-dasharray: 200;
-  animation: animate 3s linear infinite;
-}
-
-
-@keyframes animate {
-  0%{
-      stroke-dashoffset: 400;
+  .email{
+    position: absolute;
+    top: 38vw;
+    left: 12vw;
+    width: 5vw;
+    margin: .5vw;
   }
-  100%{
-      stroke-dashoffset: 0;
+  
+  .correo{
+    position: absolute;
+    font-size: 2.9vw;
+    top: 45vw;
+    left: 1vw;
   }
-}
-
-@media screen and (max-width:1050px) {
-
-  .educ{
-    top: 70vw;
+  
+  .tel{
+    position: absolute;
+    top: 25vw;
+    left: 5vw;
+    width: 5vw;
+    margin: .5vw;
   }
+  
+  .wats{
+    position: absolute;
+    top: 25vw;
+    left: 20vw;
+    width: 6vw;
+    margin: .5vw;
+  }
+
+  .telefono{
+    position: absolute;
+    font-size: 4vw;
+    top: 32vw;
+    left: 5vw;
+  }
+  
+  .ubicon{
+    position: absolute;
+    top: 7vw;
+    left: 12vw;
+    width: 5vw;
+    margin: .5vw;
+  }
+  .direc{
+    position: absolute;
+    font-size: 3vw;
+    top: 13vw;
+    left: 1vw;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .sidebar{
+    position: relative;
+    color: #160250;
+    width: 32vw;
+    top: 0vw;
+    min-height: 200vh;
+    text-align: center;
+    padding-top: 2vw;
+    background-color: #B2A3DE;
+  }
+  
+  .contact, .habil{
+    font-size: 4vw;
+    color: #160250;
+  }
+  
+  .habil{
+    border-top: 1px solid #160250;
+    width: 100%;
+    padding-top: 1vw;
+    position: absolute;
+    top: 52vw;
+    left: 0vw;
+  }
+  .habilist {
+    padding-left: 2vw;
+    list-style-type: disc;
+    position: absolute;
+    font-size: 4vw;
+    top: 60vw;
+    left: 3vw;
+  }
+  li{
+    margin: 1vw;
+    text-align: left;
+  }
+  
+  .tituloNombre{
+    font-size: 4vw;
+    color: #160250;
+  }
+  .titulo2Nombre{
+    font-size: 2vw;
+    color: #160250;
+  }
+  .titulo3Nombre{
+    font-size: 3vw;
+    color: #160250;
+  }
+
+  .experCont{
+    width: 60vw;
+    position: absolute;
+    font-size: 4vw;
+    text-align: justify;
+    margin: 1vw;
+    top: 20vw;
+    left: 35vw;
+  }
+  
   .cartasCont{
-    top: 55vw;
-  }
-  
-}
-@media screen and (max-width:550px) {
-
-  .educ{
-    top: 165vw;
+    position: absolute;
     display: flex;
     flex-direction: column;
+    border-top: 1px solid black;
+    width: 60vw;
+    font-size: 4vw;
+    top: 150vw;
+    left: 35vw;
+  }
+
+  .educ{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    width: 60vw;
+    font-size: 4vw;
+    top: 180vw;
+    left: 35vw;
   }
   
-  .cartasCont{
-    top: 145vw;
+  
+  .exper{
+      margin-bottom: 2vw;
   }
   
-}
+  
+  .titulo, .acta, .curp, .cedula, .carta1, .carta2{
+    margin: .5vw;
+    padding: .5vw;
+  }
+  
+  
+  .anexos, .cartas, .exper, .mtm, .uba,.fam{
+    margin: 1vw 0;
+  }
+  
+  .logoIPN{
+    position: absolute;
+    top: 0vw;
+    left: 58vw;
+    width: 9vw;
+    height: 100%;
+  }
+  .escom{
+    position: absolute;
+    top: 0vw;
+    left: 49vw;
+    width: 9vw;
+    height: 100%;
+  }
+  
+  
+  .nombre {
+    position: absolute;
+    background-color: #B2A3DE;
+    width: 65%;
+    height: 21vw;
+    top: 0vw;
+    left: 32vw;
+    text-align: left;
+  }
+  .datosNombre {
+    position: absolute;
+    top: 6vw;
+    left: 1vw;
+    text-align: center;
+  }
+  
+  .mainContainer{
+    position: relative;
+    background-color: #3d426b;
+    margin: 0vw;
+    padding: 0vw;
+    width: 40vw;
+    height: 21vw;
+    top: 0;
+    left: 0;
+  }
+  
+  .fotoCont{
+    position: absolute;
+    background-color: #3d426b;
+    margin: 1vw;
+    padding: .5vw;
+    border: 2px solid #B2A3DE;
+    top: 2vw;
+    left: 2vw;
+  }
+  
+  .styleFoto {
+    z-index: 1000;
+    border-radius: 2vw;
+    margin: .5vw;
+    padding: .2vw;
+    width: 10vw;
+  }
+  
+  svg,rect{
+    top: .5vw;
+    left: 1vw;
+    margin: .5vw;
+    padding: .5vw;
+    padding-bottom: 1vw;
+    padding-right: 1vw;
+    width: 68%;
+    height: 100%;
+    fill: transparent;
+    
+  }
+  
+  
+  rect {
+    stroke: #B2A3DE;
+    stroke-width: 6;
+    stroke-dasharray: 200;
+    animation: animate 3s linear infinite;
+  }
+  
+  
+  @keyframes animate {
+    0%{
+        stroke-dashoffset: 400;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+  }
+  
